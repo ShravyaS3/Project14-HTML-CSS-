@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 .logo
 {
     position: relative;
@@ -9,7 +12,8 @@
 .navitems hr {
     width: 20%;
     position: relative;
-    left: -100px;
+    left: 400px;
+    height: 0.5px;
     color: #000;
     background-color: #000;
 }
@@ -18,54 +22,57 @@
     list-style-type: none;
     margin: 0 30px; 
     position: relative;
-    left: 600px; 
-    bottom: 25px; 
+    left: 760px; 
+    bottom: 12px; 
     color: #a9b0b1;
 
 }.nav-item span {
     color: rgb(52, 51, 51);
+    font-weight: 600;
 }
 .icons {
     list-style-type: none;
     padding-bottom: 20px;
     padding-top: 0px;
     position: relative;
-    left: 1000px;
+    left: 1190px;
+    top: 20px;
+    margin: 15px;
 }
 .top {
     position: absolute;
-    top: 100px;
-    left: 500px;
+    top: 170px;
+    left: 540px;
     width: 100px;
     height: 250px;
 }
- .c1  {
+.c1  {
     position: relative;
     bottom: 90px;
     right: 100px;
     color: transparent;
-    font-size: 50px;
+    font-size: 60px;
     -webkit-text-stroke-width: 1px; 
     -webkit-text-stroke-color: #000;
 } 
 .c2 {
     position: relative;
     left: 20px;
-    font-size: 50px;
-    bottom: 200px;
-    color: rgb(70, 70, 70);
+    font-size: 60px;
+    bottom: 120px;
+    color: #000;
 }
 .para {
     position: relative;
-    bottom: 330px;
-    left: 290px;
-    font-size: 20px;
+    bottom: 210px;
+    left: 350px;
+    font-size: 30px;
     color: #a9b0b1;
 }
 .btn {
     position: relative;
-    bottom: 320px;
-    left: 330px;
+    bottom: 180px;
+    left: 450px;
     color: #fff;
     width: 100px;
     height: 30px;
@@ -75,6 +82,7 @@
     font-size: 18px;
     color: #fff;
     background-color: rgb(70, 70, 70);
+    border: none;
 }
 .img {
     display: flex;
@@ -90,13 +98,19 @@
 .items {
     border-left: #000;
     position: absolute;
-    bottom: 0px;
-    left: 360px;
+    bottom: -50px;
+    left: 460px;
 }
 .item {
     padding-bottom: 0px;
     color: #a9b0b1;
     list-style-type: none;
+    line-height: 2.65;
+}
+.item p {
+    position: relative;
+    left: 40px;
+    bottom: 8px;
 }
 .bold-item  {
     color: #000;
@@ -104,9 +118,9 @@
 .items ul .forline {
     border-left: 1px solid #a9b0b1;
     position: absolute;
-    left: 10%;
+    left: 13%;
     bottom: 0;
-    height: 170px;
+    height: 210px;
 }
 .items ul li span {
     height: 10px;
@@ -116,24 +130,24 @@
     display: inline-block;
     vertical-align: center;
     position: absolute;
-    left: 6.5%;
+    left: 8%;
 }
 .bold-item .fordot {
     background-color: #000;
     width: 15px;
     height: 15px;
     position: absolute;
-    left: 5%;
+    left: 6%;
 }
 .dance {
     position: absolute;
-    left: 600px;
-    top: 280px;
+    left: 680px;
+    top: 330px;
 }  
  .imgdance > img { 
     width: 350px;
     position: absolute;
-    top: 120px;
+    top: 150px;
 } 
 .qm {
     position: relative;
@@ -141,11 +155,11 @@
 }
 .para2 {
     position: relative;
-    top: 35px;
+    top: 55px;
     font-size: 13px;
 }
 .arrow {
     position: absolute;
-    right: 200px;
-    top: 400px;
+    right: 100px;
+    top: 480px;
 }
