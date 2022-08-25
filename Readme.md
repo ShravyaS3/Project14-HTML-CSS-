@@ -14,4 +14,6 @@
 
 ## Time taken: 7 hours
 
-[Web Page:Live-Link](https://project14-htmlcss.netlify.app/)
+# Web Page : [Live-Link](https://project14-htmlcss.netlify.app/)
+
+![Thumbnail](./Dance%20Home%20Page.png)
